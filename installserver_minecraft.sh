@@ -40,8 +40,7 @@ mv craft*.jar craftbukkit.jar
 
 # Installation du script de démarrage
 cd /etc/init.d/
-wget http://infowiki.fr/download/minecraft/minecraft.txt
-mv minecraft.txt minecraft
+wget https://github.com/InfoWiki/Minecraft/blob/master/minecraft
 chmod +x minecraft
 
 # FIN ... END
