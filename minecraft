@@ -23,7 +23,7 @@
     SERVICE='craftbukkit.jar'
     USERNAME="root"
     MCPATH='/home/minecraft/'
-	MONDE='decouverte'
+	MONDE='world'
     INVOCATION='java -Xmx2048M -Xms2048M -jar craftbukkit.jar nogui'
     BACKUPPATH='/home/minecraft/backups/'
      
