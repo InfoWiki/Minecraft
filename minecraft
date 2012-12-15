@@ -133,7 +133,7 @@
        else
          as_user "cd $MCPATH && cp minecraft_server.jar \"$BACKUPPATH/minecraft_server_`date "+%m.%d.%Y"`.jar\""
        fi
-       echo "Backup complete"
+       echo "Sauvegarde complete"
     }
      
      
