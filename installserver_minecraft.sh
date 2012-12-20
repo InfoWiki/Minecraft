@@ -5,12 +5,12 @@
 # http://infowiki.fr
 
 # Definition de la variable
-URL='http://dl.bukkit.org/downloads/craftbukkit/get/01479_1.3.2-R3.0/craftbukkit.jar'
+URL='http://dl.bukkit.org/downloads/craftbukkit/get/01707_1.4.5-R1.0/craftbukkit.jar'
 
 # Debut de l'installation
 echo "Installation serveur Minecraft"
 echo "Debut du script" > $LOG_FILE
-echo "Création de l'utilisateur minecraft"
+echo "Crï¿½ation de l'utilisateur minecraft"
 useradd -m minecraft
 echo "Definition du mot de passe de l'utilisateur minecraft"
 passwd
@@ -38,7 +38,7 @@ cd /home/minecraft/
 wget $URL
 mv craft*.jar craftbukkit.jar
 
-# Installation du script de démarrage
+# Installation du script de dï¿½marrage
 cd /etc/init.d/
 wget https://github.com/InfoWiki/Minecraft/blob/master/minecraft
 chmod +x minecraft
