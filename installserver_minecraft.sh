@@ -40,7 +40,7 @@ mv craft*.jar craftbukkit.jar
 
 # Installation du script de d�marrage
 cd /etc/init.d/
-wget https://github.com/InfoWiki/Minecraft/blob/master/minecraft
+wget https://raw.github.com/InfoWiki/Minecraft/master/minecraft
 chmod +x minecraft
 
 # FIN ... END
