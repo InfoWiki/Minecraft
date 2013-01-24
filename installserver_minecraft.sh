@@ -5,7 +5,7 @@
 # http://infowiki.fr
 
 # Definition de la variable
-URL='http://dl.bukkit.org/downloads/craftbukkit/get/01707_1.4.5-R1.0/craftbukkit.jar'
+URL='http://repo.bukkit.org/content/groups/public/org/bukkit/craftbukkit/1.4.7-R0.1/craftbukkit-1.4.7-R0.1.jar'
 
 # Debut de l'installation
 echo "Installation serveur Minecraft"
