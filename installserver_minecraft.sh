@@ -11,7 +11,7 @@ URL='http://dl.bukkit.org/downloads/craftbukkit/get/01845_1.4.7-R1.0/craftbukkit
 # Debut de l'installation
 echo "Installation serveur Minecraft"
 echo "Debut du script" > $LOG_FILE
-echo "Cr�ation de l'utilisateur minecraft"
+echo "Cr�éion de l'utilisateur minecraft"
 useradd -m minecraft
 echo "Definition du mot de passe de l'utilisateur minecraft"
 passwd
@@ -19,7 +19,8 @@ clear
 #Modification Prompte Bash
 cd /home/minecraft/
 echo "PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'" >> .bashrc
-bash
+cd
+echo "PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'" >> .bashrc
 # Ajout des sources
 echo "# non-free" >> /etc/apt/sources.list
 echo deb http://www.duinsoft.nl/pkg debs all >> /etc/apt/source
@@ -40,8 +41,8 @@ mv craft*.jar craftbukkit.jar
 # Installation du script de d�marrage
 cd /etc/init.d/
 wget https://raw.github.com/InfoWiki/Minecraft/master/minecraft
-chmod +x minecraft
+chmod a+x minecraft
 
 # FIN ... END
-echo "Fin du script" >> $LOG_FILE
+
 
