@@ -16,10 +16,8 @@ useradd -m minecraft
 echo "Definition du mot de passe de l'utilisateur minecraft"
 passwd
 clear 
-echo "Connexion avec l'utilisateur minecraft"
-su minecraft
 #Modification Prompte Bash
-cd
+cd /home/minecraft/
 echo "PS1='\[\e[0;32m\]\u\[\e[m\] \[\e[1;34m\]\w\[\e[m\] \[\e[1;32m\]\$\[\e[m\] \[\e[1;37m\]'" >> .bashrc
 bash
 # Ajout des sources
